@@ -1,0 +1,7 @@
+linhaUser = input("Insira uma frase: ")
+print(linhaUser)
+frase = linhaUser.split()
+print(frase)
+frase.reverse()
+','.join(frase)
+print(frase)
